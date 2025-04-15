@@ -1,0 +1,10 @@
+CREATE TABLE t1 (
+    id INT PRIMARY KEY,
+    f1 NVARCHAR(30),
+    f2 FLOAT
+)
+
+CREATE TABLE t2 (
+    id INT PRIMARY KEY,
+    fd DATETIME
+)
