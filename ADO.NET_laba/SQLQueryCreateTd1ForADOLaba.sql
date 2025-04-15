@@ -1,0 +1,5 @@
+CREATE TABLE td1 (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    fch NCHAR(20),
+    ff FLOAT
+);
