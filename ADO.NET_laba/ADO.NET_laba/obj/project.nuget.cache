@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "dclHhM3i+xappcXEO1NJpa/idcYbbNtigZTKECHFaV6C+U3KQ08xrnYVFaqHCHJuOnH3IF+ifje9H2XQH3EX6g==",
+  "dgSpecHash": "OSpzpI2Dn9deoHyQKfdtsul8lh1VPL0FN0urGGWLh6R44z2vL4e5uwX5hbDjQbYcuUoFgbnle1Bq6gZ24alclg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\source\\repos\\ado.net\\ADO.NET_laba\\ADO.NET_laba\\ADO.NET_laba.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512"
+  ],
   "logs": []
 }

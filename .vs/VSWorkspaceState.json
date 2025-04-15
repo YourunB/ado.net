@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ADO.NET_laba",
+    "\\ADO.NET_laba\\ADO.NET_laba"
   ],
-  "SelectedNode": "\\C:\\Users\\Admin\\Source\\Repos\\ado.net",
+  "SelectedNode": "\\ADO.NET_laba\\ADO.NET_laba\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
