@@ -1,0 +1,41 @@
+# Временные файлы Visual Studio
+.vs/
+*.user
+*.suo
+
+# Файлы артефактов сборки
+bin/
+obj/
+
+# Конфигурационные файлы
+*.config
+*.csproj.user
+
+# Файлы пакетов NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Логи
+*.log
+
+# Файлы публикации
+.publish/
+*.publishsettings
+
+# Резервные файлы
+*.bak
+*.tmp
+
+# Кэш IDE
+.idea/
+*.iml
+
+# Секреты/чувствительная информация
+*.env
+appsettings.Development.json
+appsettings.*.json
+
+# Системные файлы
+Thumbs.db
+.DS_Store
