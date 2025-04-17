@@ -68,6 +68,7 @@
             // 
             this.t1BindingSource.DataMember = "t1";
             this.t1BindingSource.DataSource = this.myDBDataSet;
+            this.t1BindingSource.CurrentChanged += new System.EventHandler(this.t1BindingSource_CurrentChanged);
             // 
             // t1TableAdapter
             // 
@@ -237,12 +238,13 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(356, 352);
+            this.button1.Location = new System.Drawing.Point(335, 345);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
+            this.button1.Text = "Loda Data";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
             // 

@@ -31,5 +31,16 @@ namespace ADO.NET_forms
             this.t1TableAdapter.Fill(this.myDBDataSet.t1);
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.t1TableAdapter.Fill(this.myDBDataSet.t1);
+            this.t1BindingSource.DataSource = this.myDBDataSet.t1;
+        }
+
+        private void t1BindingSource_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
