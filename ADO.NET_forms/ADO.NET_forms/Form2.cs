@@ -16,5 +16,20 @@ namespace ADO.NET_forms
         {
             InitializeComponent();
         }
+
+        private void t1BindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.t1BindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.myDBDataSet);
+
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'myDBDataSet.t1' table. You can move, or remove it, as needed.
+            this.t1TableAdapter.Fill(this.myDBDataSet.t1);
+
+        }
     }
 }
