@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -41,6 +42,26 @@ namespace ADO.NET_forms
         private void t1BindingSource_CurrentChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.myDBDataSet.Clear();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SqlCommand mySqlCommand = new SqlCommand();
+            mySqlCommand.Connection = this.t1TableAdapter.Connection;
+            mySqlCommand.CommandType = CommandType.Text;
+            mySqlCommand.CommandText = "INSERT INTO t1(f1, f2) VALUES ('Новый', 8)";
+
+            mySqlCommand.Connection.Open();
+            int i = mySqlCommand.ExecuteNonQuery();
+            mySqlCommand.Connection.Close();
+
+            this.myDBDataSet.Clear();
+            this.t1TableAdapter.Fill(this.myDBDataSet.t1);
         }
     }
 }
