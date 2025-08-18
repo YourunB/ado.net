@@ -8,6 +8,22 @@ class Program
         string url = "Data Source=localhost;Initial Catalog=MyDB;Integrated Security=True";
         DataSet ds = new DataSet();
 
+
+        DataSet dataSetTest = new DataSet();
+
+        DataTable tableTest = new DataTable("MyTestTable");
+
+        tableTest.Columns.Add("id", typeof(int));
+        tableTest.Columns.Add("name", typeof(string));
+        tableTest.Columns.Add("value", typeof(double));
+
+        tableTest.Rows.Add(1, "Анна", 20);
+        tableTest.Rows.Add(2, "Роман", 25);
+        tableTest.Rows.Add(3, "Антон", 30);
+
+        dataSetTest.Tables.Add(tableTest);
+
+
         using (SqlConnection con = new SqlConnection(url))
         {
             try
